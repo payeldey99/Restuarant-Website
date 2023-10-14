@@ -1,0 +1,62 @@
+/* Menu.css */
+/* You can add your custom styles here to enhance the appearance of the Menu component */
+
+/* Styles for the entire menu section */
+.menu-container {
+  background-color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+
+.menu-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+  font-family: 'Great Vibes', cursive;
+}
+
+.menu-columns {
+  display: flex; /* Display the columns side by side */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line if needed */
+  justify-content: space-between; /* Create space between columns */
+}
+
+/* Styles for each menu category */
+.menu-category {
+  width: 45%; /* Adjust the width to leave some space for spacing between columns */
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: linear-gradient(to right, #ff8800, #ffaa33);; /* Background color for each column */
+  border: 1px solid #ddd; /* Add a border to separate the columns */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-subcategory {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.menu-items {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.item-name {
+  color: #333;
+}
+
+.item-price {
+  color: #777;
+}
