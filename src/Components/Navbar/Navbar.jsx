@@ -13,6 +13,11 @@ function Navbar() {
           </Link>
         </li>
         <li className="navbar-item">
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="navbar-item">
           <Link to="menu" smooth={true} duration={500}>
             Menu
           </Link>
@@ -20,11 +25,6 @@ function Navbar() {
         <li className="navbar-item">
           <Link to="gallery" smooth={true} duration={500}>
             Gallery
-          </Link>
-        </li>
-        <li className="navbar-item">
-          <Link to="about" smooth={true} duration={500}>
-            About
           </Link>
         </li>
         <li className="navbar-item">

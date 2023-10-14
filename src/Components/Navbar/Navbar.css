@@ -17,7 +17,8 @@
   
 .navbar-logo {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 600;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   font-family: 'Great Vibes', cursive; /* Add your preferred font-family */
 }
   
@@ -29,7 +30,8 @@
   }
   
   .navbar-item {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     
   }
   

@@ -9,12 +9,13 @@
 }
 
 .menu-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #333;
   margin-bottom: 1rem;
   padding-bottom: 3rem;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
 }
 
 .menu-columns {
