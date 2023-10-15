@@ -10,6 +10,10 @@ const reviews = [
     text: "The ambiance is great, and the menu has a wide variety of delicious dishes. Highly recommended!",
     author: "Jane Smith",
   },
+  {
+    text: "The ambiance is good, and the menu has a wide variety of delicious dishes. Highly recommended!",
+    author: "Jim Smith",
+  },
   // Add more reviews here
 ];
 

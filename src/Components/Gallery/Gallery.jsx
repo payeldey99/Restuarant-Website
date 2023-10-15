@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Gallery.css"; // Import the CSS file
 
 function Gallery() {
@@ -15,19 +15,53 @@ function Gallery() {
     // Add more image file names here
   ];
 
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === galleryImages.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? galleryImages.length - 1 : prevIndex - 1
+    );
+  };
+  useEffect(() => {
+    const interval = setInterval(nextImage, 3000); // Change image every 3 seconds
+
+    return () => {
+      clearInterval(interval);
+    };
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <div className="gallery-container">
       <h2 className="gallery-title">Gallery</h2>
-      <div className="gallery-images">
-        {galleryImages.map((ima, index) => (
-          <img
-            key={index}
-            src={require(`../../Assets/Gallery/${ima}`)} // Assuming gallery images are stored in the assets/gallery folder
-            alt={`Ima ${index + 1}`}
-            className="gallery-image"
-          />
-        ))}
+      <div className="gallery-slideshow">
+        <img
+          src={require(`../../Assets/Gallery/${galleryImages[currentImageIndex]}`)}
+          alt={`Ima ${currentImageIndex + 1}`}
+          className="gallery-image"
+        />
+        <button className="prev-button" onClick={prevImage}>
+          Previous
+        </button>
+        <button className="next-button" onClick={nextImage}>
+          Next
+        </button>
       </div>
+      <div className="gallery-dots">
+        {galleryImages.map((_, index) => (
+        <span
+      key={index}
+      className={`gallery-dot ${index === currentImageIndex ? "active" : ""}`}
+      onClick={() => setCurrentImageIndex(index)}
+        ></span>
+  ))}
+    </div>
     </div>
   );
 }

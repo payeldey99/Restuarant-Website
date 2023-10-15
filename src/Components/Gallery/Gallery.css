@@ -15,18 +15,43 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
 }
 
-.gallery-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
+.gallery-slideshow {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
 .gallery-image {
   width: 100%;
-  max-height: 250px; /* Adjust the image height as needed */
+  max-height: 600px; /* Adjust the image height as needed */
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
 }
 
 .gallery-dots {
