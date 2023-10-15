@@ -31,6 +31,11 @@ function Navbar() {
           </Link>
         </li>
         <li className="navbar-item">
+          <Link to="review" smooth={true} duration={500}>
+            Reviews
+          </Link>
+        </li>
+        <li className="navbar-item">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>

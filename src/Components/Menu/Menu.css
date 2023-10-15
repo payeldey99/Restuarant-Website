@@ -29,7 +29,7 @@
   width: 45%; /* Adjust the width to leave some space for spacing between columns */
   margin-top: 1.5rem;
   padding: 1rem;
-  background: linear-gradient(to right, #ff8800, #ffaa33);; /* Background color for each column */
+  background: linear-gradient(to right, #ff8800, #ffaa33); /* Background color for each column */
   border: 1px solid #ddd; /* Add a border to separate the columns */
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
