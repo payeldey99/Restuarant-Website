@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css"; // Import the CSS file
+import logo from '../../Assets/Gallery/logo1.png'
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Food Center</div>
+      <div className="navbar-logo">
+      <img src={logo} alt="Logo" />
+      </div>
       <ul className="navbar-menu">
         <li className="navbar-item">
           <Link to="home" smooth={true} duration={500}>
