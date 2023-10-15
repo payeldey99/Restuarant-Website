@@ -33,7 +33,7 @@ function CustomerReview() {
   return (
     <section className="customer-review">
       <div className="container">
-        <h2 className="customer-review-title">Customer Reviews</h2>
+        <h2 className="customer-review-title">CUSTOMER REVIEWS</h2>
         <div className="customer-review-card">
           {reviews.map((review, index) => (
             <div

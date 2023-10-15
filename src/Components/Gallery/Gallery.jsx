@@ -39,7 +39,7 @@ function Gallery() {
 
   return (
     <div className="gallery-container">
-      <h2 className="gallery-title">Gallery</h2>
+      <h2 className="gallery-title">GALLERY</h2>
       <div className="gallery-slideshow">
         <img
           src={require(`../../Assets/Gallery/${galleryImages[currentImageIndex]}`)}

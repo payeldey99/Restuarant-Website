@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css"; // Import the CSS file
-import logo from '../../Assets/Gallery/logo1.png'
+import logo from '../../Assets/Gallery/logo3.png'
 
 function Navbar() {
   return (
@@ -12,32 +12,32 @@ function Navbar() {
       <ul className="navbar-menu">
         <li className="navbar-item">
           <Link to="home" smooth={true} duration={500}>
-            Home
+            HOME
           </Link>
         </li>
         <li className="navbar-item">
           <Link to="about" smooth={true} duration={500}>
-            About
+            ABOUT
           </Link>
         </li>
         <li className="navbar-item">
           <Link to="menu" smooth={true} duration={500}>
-            Menu
+            MENU
           </Link>
         </li>
         <li className="navbar-item">
           <Link to="gallery" smooth={true} duration={500}>
-            Gallery
+            GALLERY
           </Link>
         </li>
         <li className="navbar-item">
           <Link to="review" smooth={true} duration={500}>
-            Reviews
+            REVIEWS
           </Link>
         </li>
         <li className="navbar-item">
           <Link to="contact" smooth={true} duration={500}>
-            Contact
+            CONTACT
           </Link>
         </li>
       </ul>

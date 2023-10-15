@@ -6,9 +6,9 @@
 }
 
 .gallery-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #03084b;
   margin-bottom: 1rem;
   padding-bottom: 3rem;
   font-family: 'Poppins', sans-serif;
@@ -45,7 +45,8 @@
   cursor: pointer;
   z-index: 1;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to right, #ff8800, #ffaa33);
+  background: linear-gradient(135deg, #491fef, #ff33a7);
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 .prev-button {
@@ -73,5 +74,5 @@
 }
 
 .gallery-dot.active {
-  background-color: #ff8800;
+  background-color: #ff00e6;
 }

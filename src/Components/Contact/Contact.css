@@ -1,15 +1,15 @@
 /* Contact.css */
 .contact-container {
-  background: linear-gradient(to right, #ff8800, #ffaa33); /* Gradient background */
+  background: linear-gradient(135deg, #491fef, #ff33a7); /* Gradient background */
   padding: 3rem;
   text-align: center;
   color: #fff;
 }
 
 .contact-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: #fff;
+  color: #f9fafe;
   margin-bottom: 1rem;
   padding-bottom: 3rem;
   font-family: 'Poppins', sans-serif;
@@ -32,9 +32,10 @@
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */;
   transition: background-color 0.4s;
   cursor: pointer;
+  font-family: 'Cedarville Cursive', cursive;
 }
 .contact-details:hover{
-  background-color: hsl(27, 95%, 49%);
+  background-color: hsl(270, 95%, 49%);
 }
 
 .contact-subtitle {
@@ -42,6 +43,7 @@
   font-weight: bold;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); ;
+  
 }
 
 .contact-form {
@@ -75,8 +77,8 @@
 }
 
 .contact-form button {
-  background-color: #e4ebb2;
-  color: #ff8800;
+  background-color: #02083b;
+  color: #ffffff;
   border: none;
   border-radius: 8px;
   padding: 1rem 1rem;
@@ -90,5 +92,5 @@
 }
 
 .contact-form button:hover {
-  background-color: hsl(35, 100%, 60%);
+  background-color: hsl(297, 94%, 26%);
 }

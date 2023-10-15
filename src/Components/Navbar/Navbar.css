@@ -1,12 +1,12 @@
 /* Navbar.css */
 .navbar {
-  background: linear-gradient(135deg, #ff8800, #ffaa33); /* Add your preferred gradient colors */
+  background: linear-gradient(135deg, #491fef, #ff33a7); /* Add your preferred gradient colors */
   color: #fff;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
   position: fixed; /* Make the Navbar fixed */
   top: 0; /* Position it at the top of the viewport */
   width: 100%; /* Make it full width */
@@ -16,11 +16,12 @@
 }
   
 .navbar-logo img {
-  width: 175px; /* Set the width as needed */
-  height: 50px; /* Automatically adjust the height to maintain aspect ratio */
+  width: 80px; /* Set the width as needed */
+  height: 80px; /* Automatically adjust the height to maintain aspect ratio */
   /* You can also set a specific height if required */
   max-height: 80px; /* Set a maximum height to ensure it doesn't get too large */
-  display: block; /* Remove any extra spacing around the image */
+  display: block;
+  padding-left: 0.5rem; /* Remove any extra spacing around the image */
   /* Add any other styles you need */
 }
   
@@ -32,8 +33,8 @@
   }
   
   .navbar-item {
-    font-size: 1.2rem;
     font-weight: 600;
+    font-size: 0.1rem;
     
   }
   
@@ -46,7 +47,7 @@
   }
   
   .navbar-item a:hover {
-    color: #ff8800; /* Change to your preferred color */
+    color: #8000ff; /* Change to your preferred color */
     text-decoration: none;
   }
   

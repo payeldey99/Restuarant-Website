@@ -9,18 +9,18 @@
   }
   
   .customer-review-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #0f0f0f;
-    margin-bottom: 1rem;
-    padding-bottom: 3rem;
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+    font-size: 2rem;
+  font-weight: bold;
+  color: #03084b;
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
   }
   
   .customer-review-card {
     display: flex;
-    flex-direction: column; /* Stack review cards vertically */
+     /* Stack review cards vertically */
     align-items: center; /* Center review cards horizontally */
     width: 100%; /* Expand to full width */
     overflow: hidden;
@@ -38,7 +38,7 @@
     transform: translateX(-100%);
     transition: transform 0.5s, opacity 0.5s;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, #ff8800, #ffaa33);
+    background: linear-gradient(135deg, #491fef, #ff33a7);
   }
   
   .review-card.active {
@@ -47,16 +47,18 @@
   }
   
   .review-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #ffffff;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Cedarville Cursive', cursive;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-shadow: #0f0f0f;
   }
   
   .review-author {
     font-size: 1rem;
-    color: #f1dddd;
+    color: #fbf1f1;
     font-family: 'Your Preferred Font', sans-serif;
     text-shadow: #0f0f0f;
   }

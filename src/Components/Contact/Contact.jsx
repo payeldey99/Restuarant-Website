@@ -4,7 +4,7 @@ import "./Contact.css"; // Import the CSS file
 function Contact() {
   return (
     <div className="contact-container">
-      <h2 className="contact-title">Contact Us</h2>
+      <h2 className="contact-title">CONTACT US</h2>
       <div className="contact-content">
         <div className="contact-details">
           <h3 className="contact-subtitle">Our Location</h3>

@@ -4,7 +4,7 @@ import "./About.css"; // Import the CSS file
 function About() {
   return (
     <div className="about-container">
-      <h2 className="about-title">About Us</h2>
+      <h2 className="about-title">ABOUT US</h2>
       <p className="about-description">
       At Food Centre, we are more than just a place to dine; we are a culinary journey, a testament to passion, and a celebration of flavors. Our story is one of dedication, family, and a deep-rooted love for food.Founded over two decades ago, Food Centre has been a prominent fixture in the local dining scene. Our journey began with a simple goal: to share our love for exquisite cuisine with our community. Over the years, we've evolved and grown, but our commitment to serving exceptional food remains unchanged.
       <br/>

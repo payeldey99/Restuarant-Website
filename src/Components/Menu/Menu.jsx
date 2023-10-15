@@ -92,7 +92,7 @@ function Menu() {
 
   return (
     <div className="menu-container">
-      <h2 className="menu-title">Our Menu</h2>
+      <h2 className="menu-title">MENU</h2>
       <div className="menu-columns">
         {menuData.map((category, index) => (
           <div key={index} className="menu-category">
