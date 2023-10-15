@@ -1,48 +1,68 @@
 /* Home.css */
 .home-container {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  animation: backgroundTransition 10s infinite; /* Adjust timing as needed */
+}
+
+@keyframes backgroundTransition {
+  0% {
+    background-image: url('../../Assets/Gallery/ima1.jpeg');
+  }
+  20% {
+    background-image: url('../../Assets/Gallery/ima2.jpeg');
+  }
+  40% {
     background-image: url('../../Assets/Gallery/ima3.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
   }
-  
-  .home-content {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 2rem;
-    border-radius: 20px;
+  60% {
+    background-image: url('../../Assets/Gallery/ima4.jpeg');
   }
-  
-  .home-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+  80% {
+    background-image: url('../../Assets/Gallery/ima5.jpeg');
   }
-  
-  .home-description {
-    font-size: 1.9rem;
-    margin: 1rem 0;
-    font-family: 'Great Vibes', cursive;
+  100% {
+    background-image: url('../../Assets/Gallery/ima6.jpeg');
   }
-  
-  .home-button {
-    background-color: #ff8800;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .home-button:hover {
-    background-color: #ffaa33;
-  }
-  
+}
+
+.home-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-description {
+  font-size: 1.9rem;
+  margin: 1rem 0;
+  font-family: 'Great Vibes', cursive;
+}
+
+.home-button {
+  background-color: #ff8800;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-button:hover {
+  background-color: #ffaa33;
+}
