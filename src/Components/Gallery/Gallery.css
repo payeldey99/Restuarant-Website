@@ -35,7 +35,7 @@
 .prev-button,
 .next-button {
   position: absolute;
-  top: 50%;
+  margin-top: 22rem;
   transform: translateY(-50%);
   background-color: #333;
   color: #fff;
@@ -44,6 +44,8 @@
   border-radius: 5px;
   cursor: pointer;
   z-index: 1;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #ff8800, #ffaa33);
 }
 
 .prev-button {

@@ -47,7 +47,7 @@ function Gallery() {
           className="gallery-image"
         />
         <button className="prev-button" onClick={prevImage}>
-          Previous
+          Prev
         </button>
         <button className="next-button" onClick={nextImage}>
           Next
