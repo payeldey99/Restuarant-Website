@@ -13,22 +13,22 @@
 
 @keyframes backgroundTransition {
   0% {
-    background-image: url('../../Assets/Gallery/ima1.jpeg');
+    background-image: url('../../Assets/Gallery/ima7.jpg');
   }
   20% {
-    background-image: url('../../Assets/Gallery/ima2.jpeg');
+    background-image: url('../../Assets/Gallery/ima8.jpg');
   }
   40% {
-    background-image: url('../../Assets/Gallery/ima3.jpeg');
+    background-image: url('../../Assets/Gallery/ima9.jpg');
   }
   60% {
-    background-image: url('../../Assets/Gallery/ima4.jpeg');
+    background-image: url('../../Assets/Gallery/ima10.jpg');
   }
   80% {
-    background-image: url('../../Assets/Gallery/ima5.jpeg');
+    background-image: url('../../Assets/Gallery/ima11.jpg');
   }
   100% {
-    background-image: url('../../Assets/Gallery/ima6.jpeg');
+    background-image: url('../../Assets/Gallery/ima12.jpg');
   }
 }
 
